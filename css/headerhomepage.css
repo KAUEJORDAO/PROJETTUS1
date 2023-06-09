@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    font-family: sans-serif;
+}
+
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    padding: 1.5rem 3rem;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    letter-spacing: 3.5vw;
+    font-size: max(1.5px,1vw);
+    margin-left: 5%;
+    margin-top: 1vw;
+    
+    
+    
+    
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.navlink{
+    text-decoration: none;
+    font-size: 1.65rem;
+    color: white;
+}
+
+.botaologin{
+    background-color: rgba(0, 255, 255, 0);
+    border: none;
+    
+    cursor: pointer;
+}
+/*importante manter o tamanho do botao um pouco maior ao da img*/
+.botaologin > img{
+    width: 5vw;
+}
+
+.menuicone{
+    z-index: 1;
+}
+.menuicone > button{
+    background-color: rgba(233, 10, 10, 0);
+    border: none;
+    cursor: pointer;
+    
+}
+
+.menuicone > button > img{
+    width: 2vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    
+
+}
+
+.imgdim{/*por enquanto é importante pois tem a tag a pra subir a pag na hora que alguem clica no icone de login*/
+    width: 2vw;
+    margin-left: 47vw;
+    margin-top: 0.8vw
+}
+
+.menuicone > button:hover{
+    border-radius: 10px;
+    transition: 0.3s;
+    background-color: rgba(90, 90, 90, 0.541);
+    
+
+}
+
+.menusuperior{
+    position: fixed;
+    top: 0;
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+    width: 300px;
+    height: 700px;
+    background-color: rgb(15, 15, 15);
+    flex-direction: column;
+    text-align: center;
+    
+    padding-bottom: 1rem;
+    display: none;
+    
+}
+
+.menusuperior > ul{
+    list-style: none;
+}
+
+.menusuperior > ul > h2{
+    margin-left: 0px;
+}
+
+.navitem {
+    margin: 0 10px;
+    padding-top: 1.2rem;
+}
+
+.navitem > a:hover{
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    background-color: rgba(90, 90, 90, 0.541);
+}
+
+.navitem > a:active{
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.541);
+}
+
+.abrir{
+    position: absolute;
+    display: flex;
+}
+
+.linhasuperior {
+    margin-top: 10px;
+    margin-left: 10%;
+    width: 80%;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+

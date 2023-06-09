@@ -1,0 +1,212 @@
+.Configuracoes{
+    height: auto;
+    background-color: white;
+    display: flex;
+    width: 80vw;
+}
+.coisaslateraisconfig{
+    width: 20vw;
+    height: 79vh;
+    padding-top: 2vh;
+    background-color: rgba(0, 0, 0, 0.075);
+    text-align: center;
+    border-right: 3px solid #000000; 
+    
+}
+
+.coisaslateraisconfig > P{
+    color: rgba(0, 0, 0, 0.247);
+    cursor: pointer;
+    font-size: 40px;
+    margin-top: 40px;
+    
+}
+
+.coisaslateraisconfig div > label{
+    color: #00000067;
+    cursor: pointer;
+}
+
+.conta{
+    display: none;
+}
+
+
+.conta > form{
+    
+    margin-top: 100px;
+    margin-left: 100px;
+    
+}
+
+.conta > form > div{
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+.conta > form > div > input{
+        height: 30px;
+        width: 20vw;
+}
+
+.conta > form > div > button{
+    height: 30px;
+    width: 6vw;
+    border: none;
+
+    color: white;
+    background-color: #000000;
+}
+
+.tamanhodefinido{
+    width: 14vw;
+}
+
+
+
+.notificacoes{
+    display: none;
+    margin-top: 100px;
+    margin-left: 100px;
+    
+}
+
+.notificacoes div > p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.notificacoes div > div{
+    font-size: 20px;
+    margin-top: 15px;
+    display: block;
+}
+
+.seguranca{
+    display: none;
+}
+
+
+.seguranca > form > div{
+    
+    margin-top: 100px;
+    margin-left: 100px;
+    
+}
+
+.seguranca > form > div{
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+.seguranca > form > div > input{
+        height: 30px;
+        width: 20vw;
+}
+
+.seguranca > form > div > button{
+    height: 30px;
+    width: 6vw;
+    margin-left: 28vw;
+    border: none;
+
+    color: white;
+    background-color: #000000;
+}
+
+.metododepagamento{
+    margin-top: 100px;
+    margin-left: 100px;
+    display: none;
+}
+
+.metododepagamento > div > div > button{
+   margin-left: 30vw;
+   padding: 10px;
+   color: white;
+   font-size: 30px;
+   background-color: #00BE6B;
+
+}
+
+.metododepagamento > div > img{
+    margin-left: 17vw;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    
+ 
+ }
+
+ .metododepagamento > div > h3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    
+ 
+ }
+
+ .metododepagamento > div > p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(66, 66, 66);
+    
+ 
+}
+
+.suporte{
+display: none;
+margin: 0 auto;
+}
+
+
+
+.suporte div > h3,p{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.suporte div > h3{
+    margin-top: 100px;
+}
+
+ .suporte div > div{
+    margin-top: 50px;
+    width: auto;
+    height: auto;
+    background-color: #DEDEDE;
+    border-radius: 30px;
+    justify-content: center;
+    padding: 10px 100px;
+ }
+
+ .suporte div > div > h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 3vh;
+ }
+
+.suporte div > div > div > input{
+    margin-top: 14vh;
+    margin-left: 10%;
+    margin-bottom: 5vh;
+    width: 80%;
+    text-align: center;
+    
+    height: 30px;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 25px 25px 25px 25px;
+
+ }
+
+.mostrarselecionado{
+    display: flex;
+}
